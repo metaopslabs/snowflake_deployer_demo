@@ -44,11 +44,9 @@ DROP ROLE IF EXISTS DEMO_DOMAIN_SALES;
 3. Deploy initial code
 snowflake-deployer deploy -c deploy_config_demo.yml
 
-4. 
-Run a second time to show objects ignored 
+4. Run a second time to show objects ignored 
 
-5. 
-change a comment somewhere and redeploy to show object 
+5. change a comment somewhere and redeploy to show object 
 
 
 # Create procedure in Snowflake
