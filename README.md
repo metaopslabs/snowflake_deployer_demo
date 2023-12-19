@@ -4,7 +4,6 @@ Demo project for the snowflake-deployer.  Use this script to walk through a samp
 
 
 # INITIAL SET UP
-#######################################################
 
 Follow the guide below for initial install and config
 
@@ -14,7 +13,6 @@ Check out the docs!
 
 
 # SNOWFLAKE RESET
-#######################################################
 
 Only needed to reset a demo already ran
 
@@ -34,7 +32,6 @@ DROP ROLE IF EXISTS DEMO_DOMAIN_SALES;
 
 
 # First Test
-#######################################################
 
 1. Copy directory "snowflake_demo_start" to "snowflake" (keep a copy of orig to reset)
 
@@ -55,7 +52,6 @@ change a comment somewhere and redeploy to show object
 
 
 # Create procedure in Snowflake
-#######################################################
 
 1. Run in Snowflake
 
@@ -86,7 +82,6 @@ snowflake-deployer deploy -c deploy_config_demo.yml
 
 
 # Create tables & classify
-#######################################################
 
 1. Create tables and insert dummy data in Snowflake 
 
