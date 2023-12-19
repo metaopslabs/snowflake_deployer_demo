@@ -2,7 +2,7 @@
 
 Demo project for the snowflake-deployer.  Use this script to walk through a sample of the capabilities.
 
-#######################################################
+
 # INITIAL SET UP
 #######################################################
 
@@ -12,7 +12,7 @@ https://metaopslabs.github.io/snowflake_deployer/set_up/install/
 
 Check out the docs!
 
-#######################################################
+
 # SNOWFLAKE RESET
 #######################################################
 
@@ -32,7 +32,7 @@ DROP ROLE IF EXISTS DEMO_DOMAIN_HR;
 DROP ROLE IF EXISTS DEMO_DOMAIN_SALES;
 ```
 
-#######################################################
+
 # First Test
 #######################################################
 
@@ -53,7 +53,7 @@ Run a second time to show objects ignored
 5. 
 change a comment somewhere and redeploy to show object 
 
-#######################################################
+
 # Create procedure in Snowflake
 #######################################################
 
@@ -84,7 +84,7 @@ snowflake-deployer import -c deploy_config_demo.yml
 snowflake-deployer deploy -c deploy_config_demo.yml
 
 
-#######################################################
+
 # Create tables & classify
 #######################################################
 
