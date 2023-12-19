@@ -1,0 +1,2 @@
+  REGION in ('AMERICAS', 'CANADA')
+  

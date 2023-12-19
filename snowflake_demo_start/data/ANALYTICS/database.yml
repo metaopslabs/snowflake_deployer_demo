@@ -1,0 +1,8 @@
+COMMENT: For meta objects used for processing and centralization
+OWNER: INSTANCEADMIN
+DATA_RETENTION_TIME_IN_DAYS: 1
+TAGS: 
+- {{ref('CONTROL__GOVERNANCE__ENV')}}: {{env}}
+GRANTS:
+- {{role('DOMAIN_HR')}}: USAGE
+- {{role('DOMAIN_SALES')}}: USAGE

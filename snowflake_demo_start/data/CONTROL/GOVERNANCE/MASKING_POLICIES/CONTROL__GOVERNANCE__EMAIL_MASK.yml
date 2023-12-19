@@ -1,0 +1,10 @@
+SIGNATURE:
+- VAL: VARCHAR
+RETURN_TYPE: VARCHAR
+EXEMPT_OTHER_POLICIES: false
+OWNER: INSTANCEADMIN
+COMMENT: Sample masking policy for an email mask
+TAGS: 
+- {{ref('CONTROL__GOVERNANCE__ENV')}}: {{env}}
+GRANTS: 
+- {{role('DATA_ENGINEER')}}: APPLY

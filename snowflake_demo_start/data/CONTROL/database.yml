@@ -1,0 +1,6 @@
+COMMENT: For meta objects used for processing and centralization
+OWNER: INSTANCEADMIN
+DATA_RETENTION_TIME_IN_DAYS: 1
+TAGS: 
+GRANTS:
+- {{role('DATA_ENGINEER')}}: USAGE

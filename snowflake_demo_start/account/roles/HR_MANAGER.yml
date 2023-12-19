@@ -1,0 +1,5 @@
+OWNER: INSTANCEADMIN
+COMMENT: Assigned to HR users
+CHILD_ROLES: 
+- {{role('DOMAIN_HR')}}
+TAGS: 

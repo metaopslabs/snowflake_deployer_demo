@@ -1,0 +1,6 @@
+OWNER: INSTANCEADMIN
+COMMENT: Assigned to data engineers building the data sets
+CHILD_ROLES: 
+- {{role('DOMAIN_SALES')}}
+- {{role('DOMAIN_HR')}}
+TAGS: 

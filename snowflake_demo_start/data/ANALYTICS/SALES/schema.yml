@@ -1,0 +1,7 @@
+COMMENT: Schema for sales tables
+OWNER: INSTANCEADMIN
+DATA_RETENTION_TIME_IN_DAYS: 1
+TAGS: 
+- {{ref('CONTROL__GOVERNANCE__ENV')}}: {{env}}
+GRANTS:
+- {{role('DOMAIN_SALES')}}: USAGE

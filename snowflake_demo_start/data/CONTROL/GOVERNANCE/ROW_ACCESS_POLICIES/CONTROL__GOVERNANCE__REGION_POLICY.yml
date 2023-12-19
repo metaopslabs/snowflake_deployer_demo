@@ -1,0 +1,10 @@
+SIGNATURE:
+- REGION: VARCHAR
+RETURN_TYPE: BOOLEAN
+EXEMPT_OTHER_POLICIES: false
+OWNER: INSTANCEADMIN
+COMMENT: Row access policy associated for sales records based on department
+TAGS: 
+- {{ref('CONTROL__GOVERNANCE__ENV')}}: {{env}}
+GRANTS: 
+- {{role('DATA_ENGINEER')}}: APPLY

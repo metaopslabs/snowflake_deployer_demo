@@ -1,0 +1,5 @@
+OWNER: INSTANCEADMIN
+COMMENT: Assigned to SALES users
+CHILD_ROLES: 
+- {{role('DOMAIN_SALES')}}
+TAGS: 
