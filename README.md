@@ -42,12 +42,18 @@ DROP ROLE IF EXISTS DEMO_DOMAIN_SALES;
 - Parrallelization
 
 3. Deploy initial code
+
+```
 snowflake-deployer deploy -c deploy_config_demo.yml
+```
 
 4. Run a second time to show objects ignored 
 
-5. change a comment somewhere and redeploy to show object 
+5. change a comment somewhere and redeploy to show object
 
+```
+snowflake-deployer deploy -c deploy_config_demo.yml
+```
 
 # Create procedure in Snowflake
 
@@ -70,12 +76,18 @@ $$
 ```
 
 2. Import Object
+
+```
 snowflake-deployer import -c deploy_config_demo.yml
+```
 
 3. Add tag & grant to procedure
 
 4. Redeploy
+   
+```
 snowflake-deployer deploy -c deploy_config_demo.yml
+```
 
 
 
@@ -127,13 +139,22 @@ INSERT INTO DEMO_ANALYTICS.SALES.SALES_ORDER VALUES (6,6,'Dan Bennett',43);
 ```
 
 2. Import objects
+
+```
 snowflake-deployer import -c deploy_config_demo.yml
+```
 
 3. Classify objects
+
+```
 snowflake-deployer classify -c deploy_config_demo.yml
+```
 
 4. Deploy objects
+
+```
 snowflake-deployer deploy -c deploy_config_demo.yml
+```
 
 5. Confirm tags deployed
 
@@ -155,7 +176,9 @@ SELECT get_ddl('table','DEMO_ANALYTICS.SALES.TEAM');
 
 7. Run deployer (will detect changes occured in Snowflake)
 
+```
 snowflake-deployer deploy -c deploy_config_demo.yml
+```
 
 8. Config tags re-applied
 
